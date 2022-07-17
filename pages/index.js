@@ -19,7 +19,7 @@ function Banner({
 }) {
   return (
     <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="20">
-      <Image src={imageUrl} width={500} height={300} />
+      <Image src={imageUrl} width={500} height={300} alt={title1} />
       <Box p="5">
         <Text color="gray.500" fontSize="sm" fontWeight="medium">
           {purpose}
@@ -45,11 +45,6 @@ function Banner({
 }
 
 export default function Home({ propertiesForRent, propertiesForSale }) {
-  console.log("this is the properties for rent");
-  console.log(propertiesForRent);
-  console.log("###############");
-  console.log("this is the properties for sale");
-  console.log(propertiesForSale);
   return (
     <div>
       <Banner

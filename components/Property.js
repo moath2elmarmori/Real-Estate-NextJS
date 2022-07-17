@@ -25,7 +25,7 @@ function Property({
   return (
     <Link href={`/property/${externalID}`} passHref>
       <Box p="5" onClick={() => console.log(id, externalID)}>
-        <Image src={coverPhoto.url} width={500} height={300} />
+        <Image src={coverPhoto.url} width={500} height={300} alt="an image for the property" />
         <Flex alignItems="center" justifyContent="space-between">
           <Flex alignItems="center">
             <Text p={"5px 5px 5px 0"} color="green">

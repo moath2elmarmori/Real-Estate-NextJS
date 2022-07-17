@@ -29,7 +29,6 @@ function PropertyDetail({
   console.log("this is the ameneties", amenities);
   return (
     <Box p="5" m="5">
-      {/* <Image src={coverPhoto.url} width={500} height={300} /> */}
       <ImageScrollBar photos={photos} />
       <Box m="10">
         <Flex alignItems="center" justifyContent="space-between" w="30%">

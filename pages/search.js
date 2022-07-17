@@ -15,7 +15,6 @@ import Property from "../components/Property";
 import {useRouter} from "next/router"
 
 function Search({ properties }) {
-  //   console.log("this is the props of search", props);
   const [isFiltering, setIsFiltering] = useState(false);
   const router = useRouter()
   return (
