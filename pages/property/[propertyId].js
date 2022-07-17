@@ -96,7 +96,7 @@ function PropertyDetail({
           )}
           {amenities.map((items) => {
             return (
-              <Flex flexWrap="wrap">
+              <Flex flexWrap="wrap" key={Math.random()}>
                 {items.amenities.map((amenity) => {
                   return <Text key={amenity.text} p="2" bg="blue.200" m="2" borderRadius="5px">{amenity.text}</Text>;
                 })}
